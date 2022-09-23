@@ -1,5 +1,4 @@
 import { createSelector } from 'reselect';
-import {categoriesReducer} from "./category.reducer";
 
 const selectCategoryReducer = (state) => state.categories;
 

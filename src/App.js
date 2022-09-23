@@ -19,6 +19,8 @@ const App = () => {
     dispatch(checkUserSession());
   }, [dispatch]);
 
+  console.log(process.env.REACT_APP_STRIPE_PULISHABLE_KEY)
+
   return (
     <Routes>
       <Route path="/" element={<Navigation />}>
